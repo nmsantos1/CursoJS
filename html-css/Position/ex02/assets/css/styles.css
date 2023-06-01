@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+
+.pai{
+    height: 300vh;
+}
+
+.filha1, .filha2, .filha3{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    position: static;
+}
+
+.filha1{
+    background-color: rgba(0, 0, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+    z-index: 1;
+}
+
+.filha2{
+    position: fixed;
+    background-color: #ff007f;
+    top: 30%;
+    right: 0;
+    z-index: 3;
+}
+
+.filha3{
+    background-color: purple;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+}
+
+.outra{
+    position: absolute;
+    font-size: 50px;
+    background-color: white;
+    right: 0;
+    bottom: 0;
+}

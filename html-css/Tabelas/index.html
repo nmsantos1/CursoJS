@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas e Menus</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 800px;
+        }
+        table caption{
+            caption-side: top; /*ou bottom*/
+            text-align: left;
+            font-style: italic;
+            margin: 5px;
+        }
+        table td, table th{
+            border: 1px solid lightgray;
+            padding: 5px;
+            text-align: left;
+        }
+
+        tfoot td, table th{
+            background-color: #ddd;
+        }
+
+        tfoot td{
+            font-style: italic;
+        }
+
+        .duas-celulas{
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .responsive-table{
+            max-width: 100%;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos similique sapiente minus aliquam dolor iure nihil laborum ea veritatis, laudantium illo ex, sunt exercitationem reiciendis sit sequi magni iste enim?</p>
+
+    <div class="responsive-table">
+        <table>
+            <caption>Descrição tabela</caption>
+            <thead>
+                <tr>
+                    <th>Título 1</th>
+                    <th>Título 2</th>
+                    <th>Título 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2" class="duas-celulas">Corpo 1 e Corpo 2</td>
+                    <td>Corpo 3</td>
+                </tr>
+                <tr>
+                    <td>Corpo 1</td>
+                    <td>Corpo 2</td>
+                    <td>Corpo 3</td>
+                </tr>
+                <tr>
+                    <td>Corpo 1</td>
+                    <td>Corpo 2</td>
+                    <td>Corpo 3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2" rowspan="2"></td>
+                    <td>Total:</td>
+                </tr>
+                <tr>
+                    <td>{Valor}</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
