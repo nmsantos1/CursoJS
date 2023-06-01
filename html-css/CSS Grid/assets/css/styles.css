@@ -13,7 +13,8 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /*repeat(auto-fill, minmax(320px, 1fr))*/
+    grid-template-columns: repeat(3, 1fr); /*[um] 1fr  [dois] 1fr [tres] 1fr [quatro] 1fr*//*repeat(auto-fill, minmax(320px, 1fr))*/
+    /* grid-template-rows: [um] 1fr  [dois] 1fr [tres] 1fr [quatro] 1fr; */
     /* grid-template-rows: repeat(2, 1fr 2fr);*/
     gap: 30px;
 }
@@ -25,8 +26,15 @@ body{
 
 .grid div:nth-child(5){
     background-color: rgb(1, 116, 116);
-    grid-row: span 2;
-    grid-column: span 2;
+    /* grid-area: um / um / quatro / quatro;*/    /* innicio linha / inicio cluna / fim linha / fim coluna */
+    /* grid-column-start: um;
+    grid-column-end: quatro; */
+    /* grid-column: um / quatro;
+    grid-column: um / quatro;
+    grid-row: um / quatro;
+    grid-row: um / quatro; */
+    /* grid-row: span 2;
+    grid-column: span 2; */
     /* grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 3;
