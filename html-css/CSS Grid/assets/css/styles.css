@@ -16,7 +16,9 @@ body{
     grid-template-columns: repeat(3, 1fr); /*[um] 1fr  [dois] 1fr [tres] 1fr [quatro] 1fr*//*repeat(auto-fill, minmax(320px, 1fr))*/
     /* grid-template-rows: [um] 1fr  [dois] 1fr [tres] 1fr [quatro] 1fr; */
     /* grid-template-rows: repeat(2, 1fr 2fr);*/
-    gap: 30px;
+    gap: 30px 30px;
+    /* row-gap: 30px;
+    column-gap: 30px; */
 }
 
 .grid div{
