@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html{
@@ -88,3 +89,4 @@ table td, table th{
 tfoot td, table th{
     background-color: var(--light-gray-color);
 }
+
