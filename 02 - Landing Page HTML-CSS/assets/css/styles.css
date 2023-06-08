@@ -1,6 +1,5 @@
 .intro-content {
     position: relative;
-    /* top: -8rem; */
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);

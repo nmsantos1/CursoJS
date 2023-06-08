@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-}
-
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
