@@ -10,16 +10,16 @@
     color: var(--primary-color);
 }
 
-.main-content{
+.main-content {
     max-width: 120rem;
     margin: 0 auto;
     padding: 8rem var(--gap);
 }
 
-.section{
+.section {
     min-height: 100vh;
 }
 
-.menu-spacing{
+.menu-spacing {
     height: 6.5rem;
 }
