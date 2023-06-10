@@ -1,0 +1,1 @@
+console.log('Exercício de Const(constante) e Let(variavel).');
